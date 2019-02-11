@@ -139,7 +139,7 @@ input[placeholder] {
     text-align: center;
     display: inline-block;
     padding: 7px 0;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .footer-block__about-information:hover {
@@ -163,7 +163,9 @@ a {
 }
 
 .footer-link-hover {
-    padding: 2.5px;
+    padding: 2px;
+    display: inline-block;
+    margin-top: 2px;
 }
 
 .footer-link-hover:hover {
