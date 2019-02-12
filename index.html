@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form elements</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>Текстовое поле</label>
+                <input type="text" placeholder="Подсказывающий текст" class="text-field">
+            </div>
+            <div>
+                <label>Отключенное поле</label>
+                <input type="text" disabled="disabled" placeholder="Отключенное поле" class="disabled-field">
+            </div>
+            <div>
+                <label>Раскрывающийся список</label>
+                <select>
+                    <option>Lagouste</option>
+                    <option>Soubcart</option>
+                    <option>Aboutso</option>
+                </select>
+            </div>
+            <div class="checkbox-block">
+                <label>Флажки</label>
+                <ul>
+					<li>
+						<label><input type="checkbox">Lorem ipsum dolor sit amet</label>
+					</li>
+					<li>
+						<label><input type="checkbox">Consectetur adipisicing elit</label>
+					</li>
+					<li>
+						<label><input type="checkbox" disabled="disabled">Disabled checkbox</label>
+					</li>
+				</ul>
+            </div>
+            <div class="radio-block">
+                <label>Переключатели</label>
+                <ul>
+                    <li>
+                        <label class="radio-block__title"><input type="radio">Lorem ipsum dolor sit amet
+                        </label>
+                    </li>
+                    <li>
+                        <label class="radio-block__title"><input type="radio">Consectetur adipisicing elit</label>
+                    </li>
+                    <li>
+                        <label class="radio-block__title"><input type="radio" disabled="disabled">Disabled checkbox</label>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label>Выберите файл</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Textarea</label>
+                <textarea class="textarea-height"></textarea>
+            </div>
+            <div>
+                <label>Кнопка</label>
+                <input type="submit" value="Отправить" class="btn-send">
+                <input type="reset" value="Сбросить" class="btn-reset">
+            </div>
+        </form>
+    </body>
+</html>

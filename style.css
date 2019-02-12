@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    width: 410px;
+    margin: 10% auto;
+    background-color: #393c3e;
+    padding: 22px 10px;
+    font-family: Arial;
+}
+
+div {
+    padding: 8px 0;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color: #9dcbea;
+    font-size: 13px;
+    float: left;
+    vertical-align: middle;
+}
+
+input, textarea {
+    background-color: #242727;
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+    height: 20px;
+}
+
+input:focus, select:focus, textarea:focus {
+    border: 1px solid #97b7d9;
+    outline: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 8px rgba(151, 183, 217, 0.6);
+}
+
+input[placeholder], textarea {
+    color: #fff;
+    padding: 3px 5px;
+}
+
+.text-field {
+    width: 240px;
+}
+
+.disabled-field {
+    border-color: #585858;
+    cursor: not-allowed;
+    width: 240px;
+}
+
+select {
+    background-color: #242727;
+    color: #efefef;
+    padding: 3px 5px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    display: block;
+}
+
+ul li label {
+    float: none;
+    padding: 0;
+    width: auto;
+    margin: 0 0 0 8px;
+    color: #efefef;
+}
+
+.checkbox-block {
+    display: inline-block;
+}
+
+.checkbox-block__title, .radio-block__title {
+    width: 180px;
+}
+
+.radio-block {
+    display: inline-block;
+}
+
+input[type=file] {
+    background-color: #393c3e;
+    height: 27px;
+    border: none;
+    color: #fff;
+}
+
+.textarea-height {
+    height: 40px;
+    width: 200px;
+}
+
+input[type=submit], input[type=reset] {
+    color: #fff;
+    width: 100px;
+    height: 35px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid #19252f; 
+}
+
+.btn-send {
+    background-image: -webkit-linear-gradient(top, #8db7dd, #3d6182);
+    background-color: #3d6182;
+    background-repeat: repeat-x;
+}
+
+.btn-send:hover {
+    background-position: 0 -15px;
+}
+
+.btn-reset {
+    background-image: -webkit-linear-gradient(top, #646464, #292929);
+    background-color: #292929;
+    background-repeat: repeat-x;
+}
+
+.btn-reset:hover {
+    background-position: 0 -15px;
+}
+
+input[type=checkbox] {
+    vertical-align: bottom;
+    margin: 0 5px 0 0;
+}
+
+input[type=radio] {
+    vertical-align: bottom;
+    margin: 0 5px 0 0;
+}
